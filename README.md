@@ -2,7 +2,7 @@
  This is my first java spring project to learn it.
 
 # Starting the Project
-`java -jar current_demo_name`
+ `java -jar current_demo_name`
 
 **Currently There Is Only Local DataBase. So Closing Program Will Delete All Data**
 
@@ -10,20 +10,20 @@
 
 **Addding Person**
 After switching to body and raw type, add name and age as a json file. Name is string and age is integer.
-Example Json Data:
-`{"name":"Can","age":21}`
+ Example Json Data:
+ `{"name":"Can","age":21}`
 
-POST `localhost:8080/api/v1/person`
+ POST `localhost:8080/api/v1/person`
 
 **Getting Data By ID**
-GET `localhost:8080/api/v1/person/Spesific_ID`
+ GET `localhost:8080/api/v1/person/Spesific_ID`
 
 **Getting All Data**
-GET `localhost:8080/api/v1/person`
+ GET `localhost:8080/api/v1/person`
 
 **Updating Person By ID**
-You need to do same configurations as Adding Perosn
-PUT `localhost:8080/api/v1/person/Spesific_ID`
+ You need to do same configurations as Adding Person
+ PUT `localhost:8080/api/v1/person/Spesific_ID`
 
 **Deleting Person By ID**
-DEL `localhost:8080/api/v1/person/Spesific_ID`
+ DEL `localhost:8080/api/v1/person/Spesific_ID`
