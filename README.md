@@ -4,26 +4,26 @@
 # Starting the Project
 `java -jar current_demo_name`
 
-# Currently There Is Only Local DataBase. So Closing Program Will Delete All Data
+**Currently There Is Only Local DataBase. So Closing Program Will Delete All Data**
 
 # Testing it via Postman or other programs
 
-# Addding Person
+**Addding Person**
 After switching to body and raw type, add name and age as a json file. Name is string and age is integer.
 Example Json Data:
 `{"name":"Can","age":21}`
 
 POST `localhost:8080/api/v1/person`
 
-# Getting Data By ID
+**Getting Data By ID**
 GET `localhost:8080/api/v1/person/Spesific_ID`
 
-# Getting All Data
+**Getting All Data**
 GET `localhost:8080/api/v1/person`
 
-# Updating Person By ID
+**Updating Person By ID**
 You need to do same configurations as Adding Perosn
 PUT `localhost:8080/api/v1/person/Spesific_ID`
 
-# Deleting Person By ID
+**Deleting Person By ID**
 DEL `localhost:8080/api/v1/person/Spesific_ID`
