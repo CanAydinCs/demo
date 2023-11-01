@@ -16,6 +16,6 @@ public class DemoApplication {
 	}
 	@GetMapping("/hello")
     public String hello(@RequestParam(value = "name", defaultValue = "kullanıcı") String name) {
-      return String.format("Merhaba %s!. Bu bir giriş ekranıdır.", name);
+      return String.format("Merhaba %s!. Bu bir giriş ekranıdır..", name);
     }
 }
